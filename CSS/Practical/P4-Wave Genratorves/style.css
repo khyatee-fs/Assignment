@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    position: relative;
+    margin: 30px;
+    height: 550px;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./image/bg.png) no-repeat center/cover;
+
+}
+
+.title {
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    transform: translate(-50%, -20%);
+}
+
+.title p {
+    margin: 10px 0;
+    letter-spacing: 1px;
+}
+
+h5 {
+    width: 50%;
+    color: #e74c3c;
+    display: inline-block;
+    position: relative;
+}
+
+h5::after {
+    position: absolute;
+    top: 50%;
+    width: 45%;
+    left: 0;
+    height: 2px;
+    content: "";
+    display: block;
+    background-color: antiquewhite;
+}
+
+h5::before {
+    position: absolute;
+    top: 50%;
+    width: 45%;
+    right: 0;
+    height: 2px;
+    content: "";
+    display: block;
+    background-color: antiquewhite;
+}
+
+.wave img {
+    bottom:  0px;
+    width: 100%;
+    position: absolute;
+}
+
+.line {
+    top: 145px;
+}
+
+
+.ig {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+}
+.ig Img {
+    border-radius: 50%;
+    border: 3px solid #e74c3c;
+    /* width: 100%; */
+}
+.Img-2 img {
+    /* box-shadow: 0 0 5px 5px black; */
+}
+.Img-1 {
+    left: 200px;
+    bottom: 140px;
+}
+.Img-2 {
+    left: 400px;
+    bottom: 177px;
+    width: 60px;
+    height: 60px;
+    box-shadow: 0 0 10px 8px black;
+    border-radius: 50%;
+}
+.Img-3 {
+    left: 570px;
+    bottom: 180px;
+}
+.Img-4 {
+    right: 400px;
+    bottom: 160px;
+}
+.Img-5 {
+    right: 200px;
+    bottom: 196px;
+}
+.IMG2 {
+    position: absolute;
+    left: 365px;
+    bottom: 80px;
+}
+.IMG2 h4 {
+    position: relative;
+    color: #e74c3c;
+}
+.IMG2 p {
+    margin: 5px 0 0 0;
+    color: aliceblue;
+    font-size: 10px;
+    text-align: center;
+}
+.IMG2 h4::after {
+    content: "";
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    height: 50px;
+    background-color: aliceblue;
+    width: 1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

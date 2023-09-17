@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Document</title>
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    .container {
+      width: 90%;
+      border: 10px solid black;
+      margin: 0 auto;
+    }
+    .Grid {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      grid-auto-rows: 150px;
+      gap: 10px;
+    }
+    .Img-Box img {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+    }
+    .one {
+      grid-column: span 3;
+    }
+    .two {
+      grid-column: 5;
+      grid-row: 1/5;
+      background-color: black;
+    }
+    .three {
+      grid-column: span 2;
+    }
+    h1 {
+      color: white;
+      text-align: right;
+      padding-bottom: 20px;
+    }
+    ul {
+      margin: 20px 0;
+    }
+    li {
+      color: white;
+      text-align: right;
+      list-style: none;
+      padding: 10px;
+    }
+    .icon {
+      text-align: end;
+    }
+
+    
+    span i {
+      color: aliceblue;
+      text-align: end;
+      margin-left: 20px;
+    }
+    @media screen and (max-width: 772px) {
+      .two {
+        grid-column: 1/6;
+        grid-row: 1;
+        background-color: black;
+      }
+      nav, ul {
+        display: flex;
+        justify-content: space-between;
+        align-self: center;
+      }
+    }
+
+  </style>
+
+  <body>
+  <div class="container">
+    <div class="Grid">
+      <div class="Img-Box one"><img src="../P1-Image Gallery/img/img1.jpg" alt="" /></div>
+      <div class="Img-Box"><img src="../P1-Image Gallery/img/img2.jpg" alt="" /></div>
+      <div class="Img-Box two">
+      <nav>
+        <h1>Shutter</h1>
+          <ul>
+            <li>HOME</li>
+            <li>PHOTOS</li>
+            <li>BIO</li>
+            <li>BLOG</li>
+            <li>CONTACT</li>
+          </ul>
+      <div class="icon">
+          <span><i class="fa-brands fa-facebook-f fb"></i></span>
+          <span><i class="fa-brands fa-twitter twitter"></i></span>
+          <span><i class="fa-brands fa-instagram insta"></i></span>
+      </div>
+      </nav>
+      </div>
+      <div class="Img-Box"><img src="../P1-Image Gallery/img/img3.jpg" alt="" /></div>
+      <div class="Img-Box three"><img src="../P1-Image Gallery/img/img4.jpg" alt="" /></div>
+      <div class="Img-Box"><img src="../P1-Image Gallery/img/img5.jpg" alt="" /></div>
+      <div class="Img-Box three"><img src="../P1-Image Gallery/img/img6.jpg" alt="" /></div>
+      <div class="Img-Box three"><img src="../P1-Image Gallery/img/img7.jpg" alt="" /></div>
+      <div class="Img-Box"><img src="../P1-Image Gallery/img/img8.jpg" alt="" /></div>
+      <div class="Img-Box three"><img src="../P1-Image Gallery/img/img9.jpg" alt="" /></div>
+      <div class="Img-Box"><img src="../P1-Image Gallery/img/img10.jpg" alt="" /></div>
+      </div>
+    </div>
+  </body>
+</html>
