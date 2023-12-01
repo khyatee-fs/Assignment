@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS_Questions</title>
+  </head>
+  <body>
+    <h1>JS_Questions</h1>
+    <ol>
+      <li>What is JavaScript?</li>
+      <p>
+        Ans :- JavaScript was initially created to “make web pages alive”.<br />
+        The programs in this language are called scripts. They can be written
+        right in a web page’s HTML and run automatically as the page loads.
+      </p>
+      <li>What is the use of isNaN function?</li>
+      <p>
+        Ans :- The isNaN() function determines whether a value is NaN , first
+        converting the value to a number if necessary. Because coercion inside
+        the isNaN() function can be surprising, you may prefer to use
+        Number.isNaN().
+      </p>
+      <li>What is negative Infinity?</li>
+      <p>
+        Ans :- NEGATIVE_INFINITY is a special numeric value that is returned when an
+        arithmetic operation or mathematical function generates a negative value
+        greater than the largest representable number in JavaScript.
+      </p>
+      <li>Which company developed JavaScript?</li>
+      <p>
+        Ans :- JavaScript was created at Netscape Communications by Brendan Eich in
+        1995. Netscape and Eich designed JavaScript as a scripting language for
+        use with the company's flagship web browser, Netscape Navigator.
+        Initially known as LiveScript,
+      </p>
+      <li>What are undeclared and undefined variables?</li>
+      <p>
+        Ans :- Undeclared variables are those that have not been declared or defined in
+        the current scope, while undefined variables are those that have been
+        declared but not given a value.
+      </p>
+      <li>Write the code for adding new elements dynamically?</li>
+      <p>
+        Ans :- Creation of new element: New elements can be created in JS by using the
+        createElement() method.
+        <br><br>
+        <strong>Syntax:</strong>
+        <p>document.createElement("< tagName >"); <br>  
+            // Where < tagName > can be any HTML <br>
+            // tagName like div, ul, button, etc.<br><br>
+            // newDiv element has been created <br>
+            For Eg: let newDiv = document.createElement("div");<br>
+        </p>
+      </p>
+      <li>What is the difference between ViewState and SessionState?</li>
+        <p>Ans :- <strong>ViewState:</strong> It is maintained at only one level that is page-level. Changes made on a single page is not visible on other pages. <br>
+            Information that is gathered in view state is stored for the clients only and cannot be transferred to any other place. </p>
+            <strong>SessionState:</strong>It is maintained at session-level and data can be accessed across all pages in the web application.<br>The information is stored within the server and can be accessed by any person that has access to the server where the information is stored.<br><br>
+      <li>What is === operator?</li>
+      <p>Ans :- The strict equality (===) operator checks whether its two operands are equal, returning a Boolean result.</p>
+      <li>How can the style/class of an element be changed?</li>
+      <p>Ans :- We will learn how we can change the style/class of an element. <br>
+        If you want to build a cool website or app then UI plays an important role. We can change, add or remove any CSS property from an HTML element on the occurrence of any event with the help of JavaScript.</p>
+      <li>How to read and write a file using JavaScript?</li>
+      <p>Ans :- Files can be read and written by using java script functions – fopen(),fread() and fwrite().<br>
+      The function fopen() takes two parameters – 1. Path and 2. Mode (0 for reading and 3 for writing).
+      <br>The fopen() function returns -1, if the file is successfully opened.</br>
+      <li>What are all the looping structures in JavaScript?</li>
+      <p>Ans :- JavaScript supports different kinds of loops:</p>
+      <dl>for - loops through a block of code a number of times</dl>
+      <dl>for/in - loops through the properties of an object</dl>
+      <dl>for/of - loops through the values of an iterable object</dl>
+      <dl>while - loops through a block of code while a specified condition is true</dl>
+      <dl>do/while - also loops through a block of code while a specified condition is true</dl>
+      <li>How can you convert the string of any base to an integer in JavaScript?</li>
+      <p>Ans :- In JavaScript parseInt() function (or a method) is used to convert the passed-in string parameter or value to an integer value itself. 
+        <br>This function returns an integer of the base which is specified in the second argument of the parseInt() function. </p>
+      <li>What is the function of the delete operator?</li>
+      <p>Ans :- The delete operator removes a property from an object. If the property's value is an object and there are no more references to the object, the object held by that property is eventually released automatically.</p>
+      <li>What are all the types of Pop up boxes available in JavaScript?</li>
+      <p>Ans :- JavaScript has three kind of popup boxes: Alert box, Confirm box, and Prompt box.</p>
+      <li>What is the use of Void (0)?</li>
+      <p>Ans :- JavaScript void 0 means returning undefined (void) as a primitive value.
+        <br>You might come across the term “JavaScript:void(0)” while going through HTML documents. </p>
+      <li>How can a page be forced to load another page in JavaScript?</li>
+      <p>Ans :- We can use window. location property inside the script tag to forcefully load another page in Javascript.</p>
+      <li>What are the disadvantages of using innerHTML in JavaScript?</li>
+        <p><strong>Ans :- Disadvantages of innerHTML</strong></p>
+          <ul>
+            <li>Event handlers attached to any DOM element are preserved.</li>
+            <li>Replacement is done everywhere.</li>
+            <li>It is not possible to append innerHTML.</li>
+            <li>Breaks the document.</li>
+            <li>Used for Cross-site Scripting.</li>
+          </ul>
+  </ol>
+  </body>
+</html>

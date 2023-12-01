@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create result </title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .box {
+            margin: 0 auto;
+            border: 2px solid black;
+            width: 35%;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        h1{
+            font-size: 20px;
+            text-align: left;
+        }
+        h5{
+            text-align: center;
+            padding: 20px 0px;
+        }
+        .textbox {
+            display: flex;
+            justify-content: space-between;
+        }
+        button {
+            margin: 30px 0px;
+            padding: 5px 30px;
+        }
+        h3{
+            width: 50px;
+            height: 20px;
+        }
+        label {
+            display: flex;
+        }
+        .total{
+            display: flex;
+            justify-content: space-between;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+
+        <h1>Marksheet for Information Technology</h1>
+        <h5>Enter Marks</h5>
+
+        <div class="textbox">
+            <label for="">C Language</label>
+            <input type="number" name="first" id="first">
+        </div><br>
+        <div class="textbox">
+            <label for="">C++ Language</label>
+            <input type="number" name="second" id="second">
+        </div><br>
+        <div class="textbox">
+            <label for="">Database</label>
+            <input type="number" name="third" id="third">
+        </div><br>
+        <div class="textbox">
+            <label for="">HTML</label>
+            <input type="number" name="fourth" id="fourth">
+        </div><br>
+        <div class="textbox">
+            <label for="">CSS</label>
+            <input type="number" name="fifth" id="fifth">
+        </div><br>
+        <div class="textbox">
+            <label for="">php</label>
+            <input type="number" name="sixth" id="sixth">
+        </div><br>
+        <div class="textbox">
+            <label for="">Core java</label>
+            <input type="number" name="seventh" id="seventh">
+        </div>
+        <button onclick="result()">Result</button>
+        <div class="total">
+            <label>Total is:<h3 id="add"></h3>/ 350</label>
+            <label>percentage is:<h3 id="per"></h3>%</label>
+        </div>
+    </div>
+    <script>
+        function result() {
+            let First = Number(document.getElementById("first").value);
+            let Second = Number(document.getElementById("second").value);
+            let Third = Number(document.getElementById("third").value);
+            let Fourth = Number(document.getElementById("fourth").value);
+            let Fifth = Number(document.getElementById("fifth").value);
+            let Sixth = Number(document.getElementById("sixth").value);
+            let Seventh = Number(document.getElementById("seventh").value);
+
+            let total = (First + Second + Third + Fourth + Fifth + Sixth + Seventh);
+            document.getElementById("add").innerText = total;
+            document.getElementById("add").style.color = "blue";
+
+            let percentage = (total / 350) * 100 ;
+            document.getElementById("per").innerText = percentage;
+            document.getElementById("per").style.color = "blue";
+        };
+    </script>
+</body>
+</html>
