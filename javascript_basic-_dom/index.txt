@@ -1,0 +1,50 @@
+Q.1 What is JavaScript. How to use it? 
+ans: javascript is object oriented,event based and case sensetive pograming language.
+
+Q.2 How many type of Variable in JavaScript? 
+ans: 3 types of varible in javascript
+       1)var 2)let 3)const
+
+Q.3 Define a Data Types in js?
+ans:2 data type => primitive and non-primitive data types.
+
+Q.4 Write a mul Function Which will Work Properly When invoked With Following Syntax.
+
+Q.5 What the deference between undefined and undeclare in JavaScript?
+ans:undefined: when varible is declair but value is not assigned and undefine 
+    undeclare: when we try to access any variable that is not initialized or declared 
+
+Q.6 Using console.log() print out the following statement: The quote 'There is no exercise better for the heart than reaching down and lifting people up.' by John Holmes teaches us to help one another. Using console.log() print out the following quote by Mother Teresa:
+
+Q.7 Check if typeof '10' is exactly equal to 10. If not make it exactly equal?
+ans:Console.Log(Type Of Num1 Is : ${Typeof Number(Num1)} And Type Of Num1 Is :${Typeof Num2})
+
+Q.8 Write a JavaScript Program to find the area of a triangle? 
+            let base = 60;
+            console.log(base)
+            let height = 50;
+            console.log(height)
+
+            // Area of a triangle = 1/2 * base * height
+            let c = 1 / 2 * base * height
+            document.write(c)
+            ans= 1500
+
+Q.9 Write a JavaScript program to calculate days left until next Christmas?
+
+Q.10 What is Condition Statement? 
+and:A conditional statement is represented in the form of “if…then”. Let p and q are the two statements, then statements p and q can be written as per different conditions
+
+Q.11 Find circumference of Rectangle formula : C = 4 * a ? 
+ans:            function check() {
+                
+                let length = document.getElementById("lengthid");
+                let spanid = document.getElementById("spanid");
+    
+                console.log(length.value * 4);
+                spanid.innerHTML = (length.value * 4);
+                // document.write=(length.value * 4)
+            }
+
+Q.12 WAP to convert years into days and days into years? 
+
