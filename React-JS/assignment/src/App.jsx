@@ -2,7 +2,8 @@ import React from 'react'
 import ListView from './React-Assignment1/Practical/ListView'
 import Btnclick from './React-Assignment1/Practical/Btnclick'
 import ListandHook from './React-Assignment1/Practical/ListandHook'
-import Extra from './React-Assignment1/Practical/Extra'
+import Extrafile from './React-Assignment1/Practical/Extrafile'
+import StyleMUI from './React-Assignment1/Practical/StyleMUI'
 
 export default function App() {
   return (
@@ -12,8 +13,12 @@ export default function App() {
       <Btnclick/>
       <br /> */}
       {/* <ListandHook/> */}
-      <br />
-      <Extra/>
+      {/* <br /> */}
+      {/* <Extrafile/> */}
+      {/* <br /> */}
+      <StyleMUI/>
+      {/* <br /> */}
+      
     </div>
   )
 }
